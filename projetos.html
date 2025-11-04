@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'> <!-- LINK PRO GOOGLE FONTS-->
+    <script src="https://kit.fontawesome.com/17de8a77b6.js" crossorigin="anonymous"></script> <!-- LINK DO SCRIPT PROS ICONS DO FONT AWESOME-->
+    <script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- HEADER-->
+     <header>
+        <div class="container-header">
+            <div class="topo" id="topo">
+                <div class="nome">Portfólio - Danilo Lobianco</div>
+                <div class="icons">
+                    <div class="home" id="home">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house fa-2xl" style="color: #000000;"></i>
+                            </a>
+                    </div>
+                    <div class="modo" id="modo">
+                        <button id="btnDark">
+                            <i class="fa-solid fa-moon fa-xl"></i> 
+                        </button>                                       
+                    </div>
+                </div>                
+            </div>
+            <nav>
+                <div class="baixo" id="baixo">
+                    <div class="hd-sobre">
+                        <a href="sobre.html">Sobre mim</a>
+                    </div>
+                    <div class="hd-barra"></div>
+                    <div class="hd-projetos">
+                        <a href="projetos.html">Projetos</a>
+                    </div>
+                    <div class="hd-barra"></div>
+                    <div class="hd-contato">
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+     </header>
+    
+     <!-- MAIN-->
+      <main>
+        <h1 class="subtitulo">Projetos</h2>
+        <p class="texto">Todos os projetos que desenvolvi foram realizados durante o curso técnico em Desenvolvimento de Sistemas, entre 2023 e 2024. Durante esse período, trabalhei tanto em equipe quanto individualmente, mas destaco meu trabalho em grupo, entregue para a conclusão do curso. Quando trabalho em grupo, tenho o costume de ajudar meus colegas a resolver os problemas deles, nesse sentido sou bastante proativo, minha parte favorita de um trabalho é resolver problemas.</p>
+        <br>
+        <h2 class="subtitulo">ConVes</h2>
+        <p class="texto">Meu trabalho de conclusão de curso consistiu em um site que funcionava como plataforma para professores postarem aulas autorais, onde alunos quaisquer poderiam acessar o conteúdo, de maneira não-monetizada.
+        </p>
+        <p class="texto2">As tecnologias e ferramentas principais utilizadas no projeto foram: Node.js, Handlebars, SQL, MySql Workbench, VS Code e Figma. <a href="https://github.com/GDan114/ConVes" style="color: black;">Link GitHub</a></p>
+        
+        <div class="imgs">
+            <div class="proj-img">
+                <div class="container-img-proj">
+                    <img src="img/ConvesLanding.jpg" alt="Lading page da ConVes" class="imgProj">
+                </div>
+                <div class="container-label-proj">
+                    <label class="legenda">Landing page</label>
+                </div>
+            </div>
+            <div class="proj-img">
+                <div class="container-img-proj">
+                    <img src="img/ConvesLogin.jpg" alt="Tela de Login da ConVes" class="imgProj">
+                </div>
+                <div class="container-label-proj">
+                    <label class="legenda">Login</label>
+                </div>
+            </div>
+            <div class="proj-img">
+                <div class="container-img-proj">
+                    <img src="img/ConvesHome.jpg" alt="Home da ConVes" class="imgProj">
+                </div>
+                <div class="container-label-proj">
+                    <label class="legenda">Home</label>
+                </div>
+            </div>
+            <div class="proj-img">
+                <div class="container-img-proj">
+                    <img src="img/ConvesDEER.jpg" alt="Diagrama de Entidade Relacionamento da ConVes" class="imgProj">
+                </div>
+                <div class="container-label-proj">
+                    <label class="legenda">Diagrama de Entidade Relacionamento</label>
+                </div>
+            </div>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="txt-footer">Danilo Lobianco - 2025</div>
+            <button class="btnFooter" id="btnFooter">
+                <i class="fa-solid fa-arrow-up fa-xl"></i>
+            </button>
+     </footer>
+     <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>

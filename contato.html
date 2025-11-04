@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'> <!-- LINK PRO GOOGLE FONTS-->
+    <script src="https://kit.fontawesome.com/17de8a77b6.js" crossorigin="anonymous"></script> <!-- LINK DO SCRIPT PROS ICONS DO FONT AWESOME-->
+    <script src="./js/script.js" defer></script>
+    <script src="./js/form.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER-->
+     <header>
+        <div class="container-header">
+            <div class="topo" id="topo">
+                <div class="nome">Portfólio - Danilo Lobianco</div>
+                <div class="icons">
+                    <div class="home" id="home">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house fa-2xl" style="color: #000000;"></i>
+                            </a>
+                    </div>
+                    <div class="modo" id="modo">
+                        <button id="btnDark">
+                            <i class="fa-solid fa-moon fa-xl"></i> 
+                        </button>                                       
+                    </div>
+                </div>                
+            </div>
+            <nav>
+                <div class="baixo" id="baixo">
+                    <div class="hd-sobre">
+                        <a href="sobre.html">Sobre mim</a>
+                    </div>
+                    <div class="hd-barra"></div>
+                    <div class="hd-projetos">
+                        <a href="projetos.html">Projetos</a>
+                    </div>
+                    <div class="hd-barra"></div>
+                    <div class="hd-contato">
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+     </header>
+    
+     <!-- MAIN -->
+      <main>
+        <h1 class="subtitulo">Contato</h2>
+        <div class="containerMain">
+            <div class="container-contato">
+                <div class="meio">
+                    <div class="icon-contato">
+                        <i class="fa-solid fa-phone fa-2xl"></i>
+                    </div>
+                    <div class="info-contato">
+                        <label class="txt-info">13 99105-7428</label>
+                    </div>
+                </div>
+                <div class="meio">
+                    <div class="icon-contato">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </div>
+                    <div class="info-contato">
+                        <label class="txt-info">dan_lobianco</label>
+                    </div>
+                </div>
+                <div class="meio">
+                    <div class="icon-contato">
+                        <i class="fa-solid fa-envelope fa-2xl"></i>
+                    </div>
+                    <div class="info-contato">
+                        <label class="txt-info">danilolobianco31@gmail.com</label>
+                    </div>
+                </div>
+                <div class="meio">
+                    <div class="icon-contato">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </div>
+                    <div class="info-contato">
+                        <a href="https://www.linkedin.com/in/danilo-lobianco-9b9252304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="txt-info">
+                            Link LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-form">
+                <form id="formulario">
+                    <label for="nome" class="txt-info">Nome: </label>
+                    <input type="text" id="idNome" name="nome" placeholder="Digite seu nome" required><br><br>
+                    <label for="email" class="txt-info">Email: </label>
+                    <input type="email" id="idEmail" name="email" placeholder="Digite seu email" required><br><br>
+                    <label for="mensagem" class="txt-info">Mensagem: </label>
+                    <input type="text" id="idMsg" name="mensagem" placeholder="Digite sua mensagem" required><br><br>
+                    <br><br>
+                    <div class="container-btn">
+                        <input type="submit" name="submit" id="idBtn" value="Enviar">
+                    </div>
+                </form>  
+                <div id="mensagemForm" style="display: none;"></div>              
+            </div>
+        </div>
+
+      </main>
+
+      <!--FOOTER -->
+      <style>
+        footer {
+            position: absolute;
+        bottom: 0;
+        width: 100%;
+        } /* Como a pag de contato é a única que não preenche a tela inteira, achei mais prático faer o estilo único dela para o footer ficar embaixo, ao invés de mudar no style*/
+      </style>
+      <footer class="footer" id="footer">
+        <div class="txt-footer">Danilo Lobianco - 2025</div>
+            <button class="btnFooter" id="btnFooter">
+                <i class="fa-solid fa-arrow-up fa-xl"></i>
+            </button>
+     </footer>
+
+    <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>

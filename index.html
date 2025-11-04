@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Danilo Lobianco</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'> <!-- LINK PRO GOOGLE FONTS-->
+  <script src="./js/landing.js" defer></script>
+</head>
+<body> 
+  <div class="container-geral">
+    <div class="landing">
+      <!-- Texto de boas vindas-->
+      <div class="topo-landing">
+        <div class="bem-vindo">
+          <p>
+            <label id="msg"></label> Me<br>chamo<br><label class="nomeLanding">Danilo Lobianco,</label><br>prazer em tê-lo aqui ;)
+          </p>
+        </div>
+        <div class="imgLanding">
+          <img class="img" src="img/landing-fria.jpg" alt="foto pessoal de Danilo">
+        </div>
+      </div>
+      
+      
+      <!-- botões-->
+      <div class="botoes">
+        <a href="sobre.html">
+          <div class="btn">
+            Sobre mim
+          </div>
+        </a>
+        <a href="projetos.html">
+          <div class="btn">
+            Projetos
+          </div>
+        </a>
+        <a href="contato.html">
+          <div class="btn">
+            Contato
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>  
+  <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
