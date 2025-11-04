@@ -1,0 +1,71 @@
+.containerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vh;
+}
+
+.txt-info {
+    font-family: "Roboto Serif", Helvetica;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+.linkedin {
+    cursor: pointer;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#idBtn {
+    all: unset;
+    font-family: "Roboto Serif", Helvetica;
+    font-weight: 400;
+    font-size: 12pt;
+    background-color: #4292BF;
+    width: 10vh;
+    height: 4vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#mensagemForm {
+    font-family: "Roboto Serif", Helvetica;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+/* Responsividade -> pensado para o galaxy s20 uktra (412 x 915)*/
+
+@media (max-width: 412px) {
+    .containerMain{
+        flex-direction: column;
+        gap: 5vh;
+    }
+    
+    .txt-info {
+        font-size: 12pt;
+    }
+
+    main {
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
+}

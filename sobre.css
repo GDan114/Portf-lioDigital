@@ -1,0 +1,45 @@
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.sec-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-img {
+    justify-content: flex-end;
+}
+
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista {
+    font-family: "Roboto Serif", Helvetica;
+    font-weight: 100;
+    font-size: 18pt;
+}
+
+.lista ul {
+    padding: 0;
+}
+
+@media (max-width: 412px) {
+    .imgFormatura {
+        width: 30vh;
+    }
+
+    .imgProg {
+        width: 25vh;
+    }
+
+    .sec-skills {
+        flex-direction: column;
+    }
+}

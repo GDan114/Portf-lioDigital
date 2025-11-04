@@ -1,0 +1,36 @@
+.imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 5vh;
+}
+
+.proj-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.container-label-proj {
+    color: #000;
+    font-family: "Roboto Serif", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+/* Responsividade -> pensado para o galaxy s20 uktra (412 x 915)*/
+
+@media (max-width: 412px) {
+    .imgProj{
+        width: 40vh;
+    }
+
+    .legenda {
+        font-size: 12pt;
+    }
+}
